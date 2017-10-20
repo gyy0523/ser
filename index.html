@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="Content/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="Content/css/reset.css">
+    <link type="text/css" rel="stylesheet" href="Content/css/common.css">
+    <link rel="stylesheet" href="Content/icon/iconfont.css">
+    <link type="text/css" rel="stylesheet" href="Script/jquery/swiper-3.3.1.min.css">
+    <link type="text/css" rel="stylesheet" href="Content/css/style.css">
+</head>
+<body>
+<div class="box">
+    <header><a></a><a><b class="hui">服务</b><b>金融</b></a><a><i class="iconfont">&#xe729;</i></a></header>
+    <section ng-app="myApp">
+        <ng-view></ng-view>
+    </section>
+    <footer>
+        <a><i class="iconfont">&#xe648;</i>首页</a>
+        <a><i class="iconfont">&#xe714;</i>论坛</a>
+        <a><i class="iconfont">&#xe63c;</i>选车</a>
+        <a class="bg"><i class="iconfont bg">&#xe715;</i>发现</a>
+        <a><i class="iconfont">&#xe712;</i>未登录</a>
+    </footer>
+</div>
+<script type="text/javascript" src="Script/jquery/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="Script/jquery/iscroll5.js"></script>
+<script type="text/javascript" src="Script/jquery/swiper-3.3.1.min.js"></script>
+<script type="text/javascript" src="Script/jquery/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="Script/angular/angular.min.js"></script>
+<script type="text/javascript" src="Script/angular/angular-route.min.js"></script>
+<script type="text/javascript" src="App/app.js"></script>
+<script type="text/javascript" src="App/Controller/serController.js"></script>
+<script type="text/javascript" src="App/Directive/serDirective.js"></script>
+<script type="text/javascript" src="App/Servies/serServer.js"></script>
+<script type="text/javascript">
+    (function(doc,win){
+        var currentWidth=doc.documentElement.clientWidth;
+        doc.documentElement.style.fontSize=currentWidth/375*50+'px';
+    })(document,window)
+</script>
+</body>
+</html>
